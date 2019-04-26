@@ -1,0 +1,41 @@
+    * {
+ box-sizing: border-box;
+ font-family: Verdana, Geneva, sans-serif;
+ margin: 0;
+ 
+}
+/*...*/
+#missatges p {
+ 
+ border-radius: 50px;
+ 
+ background-color: #97CAEF;
+ padding: 2px 8px;
+ border: 1px solid darkorange;
+}
+#missatges p:nth-child(odd) {
+ background-color: #CAFAFE;
+}
+/*...*/
+#errors p {
+ background-color: orangered;
+ padding: 2px 8px;
+ 
+}
+input[type=text] {
+  
+  width: 98%;
+  padding: 12px 20px;
+  margin: 8px 15px 0px 15px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid darkorange;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#cajam {
+    height: 100px;
+    margin-bottom: 10px;
+    
+}
